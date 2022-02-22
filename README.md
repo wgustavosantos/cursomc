@@ -23,15 +23,15 @@ em linguagem orientada a objetos dos seguintes tópicos:
 + Atributos Embedded (ItemPedidoPK)
 + Coleções ElementCollection (telefones de um cliente)
 ### A estrutura de camadas do sistema foi implementa conforme a seguir:
-imagem
+![Estrutura de camadas da API](https://user-images.githubusercontent.com/77124683/155135270-bb61ca61-725c-4cbd-a384-289783c7a0ac.png)
 ### Objetivos específicos:
-imagem
 1. Fazer uma implementação padrão do seguinte modelo conceitual:
-imagem
+![diagrama-de-classes](https://user-images.githubusercontent.com/77124683/155135429-ee8f6be1-f82f-4150-ab44-25481d9e417b.png)
 2. Criar a seguinte instância do modelo conceitual:
-imagem
+![diagrama-de-objetos](https://user-images.githubusercontent.com/77124683/155135774-86b2dc11-e8d0-4b11-a854-ef400e4f72bd.png)
 3. Gerar uma base de dados relacional automaticamente a partir do modelo conceitual, bem como povoar a base com a instância dada.
-
+    * Banco H2:
+    ![Banco h2](https://user-images.githubusercontent.com/77124683/155136817-e5cb7a9e-6b96-4564-9bc4-bd8bd8f62c31.PNG)
 4. Recuperar os dados e disponibilizá-los por meio de uma API Rest BÁSICA. Os seguintes end points devem ser disponibilizados: 
 <table>
   <tr>
